@@ -10,7 +10,7 @@ You can send request in PHP , JavaScript and HTML.
 * Simply just use :
 ```php
     if (!file_exists('testWatermark.php'))
-    copy('https://raw.githubusercontent.com/TadavomnisT/captcha_for_php/master/test.php', 'testWatermark.php');
+    copy('https://raw.githubusercontent.com/TadavomnisT/php_image_watermark/master/test.php', 'testWatermark.php');
 ```
 in your script,
 Then run 'testWatermark.php' and you'll find out how it works!
