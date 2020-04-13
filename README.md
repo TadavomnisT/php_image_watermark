@@ -22,8 +22,8 @@ Then run 'testWatermark.php' and you'll find out how it works!
 * French
 * Arabic
 * German
-* all LTR languages...
-But there are only two options: 
+* all LTR languages... 
+- But there are only two options: 
 * Use Persian for Persian_like languages
 * Use English for English_like languages
 
@@ -40,8 +40,8 @@ But there are only two options:
 * PLEASE READ test.php 
 
 ## Development Info
-* Homepage: https://github.com/TadavomnisT/captcha_for_php
-* Repo: https://github.com/TadavomnisT/captcha_for_php
+* Homepage: https://github.com/TadavomnisT/php_image_watermark/
+* Repo: https://github.com/TadavomnisT/php_image_watermark/
 
 ## Author
 * Behrad.B
