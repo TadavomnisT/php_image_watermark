@@ -23,7 +23,7 @@ Then run 'testWatermark.php' and you'll find out how it works!
 * Arabic
 * German
 * all LTR languages... 
-- But there are only two options: 
+** But there are only two options: 
 * Use Persian for Persian_like languages
 * Use English for English_like languages
 
