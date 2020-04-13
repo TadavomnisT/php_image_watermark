@@ -8,7 +8,7 @@ Script by TadavomnisT
 
 Available image extentions: jpg , png , jpeg , PNG , JPG , JPEG
 
-Available text languages : Engish , Persian
+Available text languages : English , Persian
 
 **IMPORTANT: You can only use one of watermark ways each time, 'watermark_type_image' or 'watermark_type_text'
 
@@ -86,7 +86,8 @@ $context  = stream_context_create($opts);
 
 // Sending POST request and storing result
 // **IMPORTANT** be careful about current URL, You might need to change that a bit if your not using localhsot.
-$url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."watermarkImage.php";
+$url = str_replace("testWatermark.php","watermarkImage.php","http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+
 $result = file_get_contents($url, false, $context);
 
 // End of Image watermark example======================================================
@@ -132,7 +133,7 @@ $context  = stream_context_create($opts);
 
 // Sending POST request and storing result
 // **IMPORTANT** be careful about current URL, You might need to change that a bit if your not using localhsot.
-$url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']."watermarkImage.php";
+$url = str_replace("testWatermark.php","watermarkImage.php","http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 $result2 = file_get_contents($url, false, $context);
 
 // End of Text watermark example======================================================
