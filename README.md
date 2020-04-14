@@ -36,6 +36,7 @@ Then run 'testWatermark.php' and you'll find out how it works!
 * Using alpha channel
 * Supporting Persian language
 * Use custom fonts just by passing URL
+ 
 .
 .
 .
