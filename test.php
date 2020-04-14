@@ -38,7 +38,7 @@ array(
 )
 
 
-You may fine some useful examples below:
+You may find some useful examples below:
 */
 
 
@@ -165,8 +165,8 @@ echo $result2;
 
 // sending image in telegram bot API--------------------------------------------------------------------------
 /*
-$image="data:image/png;base64,".$files_to_show[$i]; or $image="data:image/jpg;base64,".$files_to_show[$i];
-$img_name="SOME_UNIQUE_NAME.png"; or $img_name="SOME_UNIQUE_NAME.jpg";
+$image = $result;
+$img_name = "SOME_UNIQUE_NAME.png"; or $img_name="SOME_UNIQUE_NAME.jpg";
 $data = $image;
 list($type, $data) = explode(';', $data);
 list(, $data)      = explode(',', $data);
