@@ -23,6 +23,7 @@ Then run 'testWatermark.php' and you'll find out how it works!
 * Arabic
 * German
 * all LTR languages... 
+
 ** But there are only two options: 
 * Use Persian for Persian_like languages
 * Use English for English_like languages
@@ -34,6 +35,7 @@ Then run 'testWatermark.php' and you'll find out how it works!
 * Scaling watermark logo
 * Using alpha channel
 * Supporting Persian language
+* Use custom fonts just by passing URL
 .
 .
 .
